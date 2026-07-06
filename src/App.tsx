@@ -34,7 +34,7 @@ export default function App() {
             onClick={() => dispatch({ type: 'setPage', page: 'landing' })}
           >
             <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="h-7 w-7" />
-            TidePath: Marine Omics Pathway Mapper
+            Marine Omics Pathway Mapper
           </button>
           <nav className="ml-auto flex flex-wrap items-center gap-1">
             {NAV.map((n) => {
@@ -71,7 +71,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-400">
-        TidePath: Marine Omics Pathway Mapper — free, client-side pathway mapping. Pathway data from WikiPathways (CC0) and Reactome (CC-BY 4.0).
+        Marine Omics Pathway Mapper — free, client-side pathway mapping. Pathway data from WikiPathways (CC0) and Reactome (CC-BY 4.0).
         Results are a mapping aid; interpret with orthology quality and annotation completeness in mind.
       </footer>
     </div>

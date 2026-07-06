@@ -142,6 +142,6 @@ function buildCitation(pathways: { id: string; source: string; name: string; sou
   if (hasRx) lines.push('Reactome — cite the current Reactome Pathway Knowledgebase publication and the specific pathway IDs used (see the citation guidance at https://reactome.org/cite). Content is released under CC-BY 4.0.');
   const ids = pathways.map((p) => p.id).slice(0, 40).join(', ');
   if (ids) lines.push(`Pathway IDs referenced in this analysis: ${ids}${pathways.length > 40 ? ', …' : ''}.`);
-  lines.push('Marine Pathway Mapper (this tool) performed identifier mapping and visualization only; pathway content, names, and identifiers belong to the sources above.');
+  lines.push('Marine Omics Pathway Mapper (this tool) performed identifier mapping and visualization only; pathway content, names, and identifiers belong to the sources above.');
   return lines.join('\n\n');
 }

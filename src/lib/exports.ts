@@ -226,7 +226,7 @@ export function buildMethodsText(ctx: MethodsContext): string {
     `Differential values were visualized as ${ctx.effectField || 'effect size'}, with statistical significance defined as ${ctx.significanceField || 'adjusted p-value'} ${ctx.threshold}.`,
     modeClause,
     'Pathway-level results are intended as a mapping and enrichment aid and should be interpreted in the context of orthology quality, annotation completeness, and the selected background set.',
-    `Analysis was performed with Marine Pathway Mapper v${APP_VERSION}. Pathway sources: WikiPathways (https://www.wikipathways.org) and Reactome (https://reactome.org); please cite these resources.`,
+    `Analysis was performed with Marine Omics Pathway Mapper v${APP_VERSION}. Pathway sources: WikiPathways (https://www.wikipathways.org) and Reactome (https://reactome.org); please cite these resources.`,
   ].join(' ');
 }
 

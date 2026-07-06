@@ -1,5 +1,5 @@
 /**
- * Marine Pathway Mapper — transparent data model.
+ * Marine Omics Pathway Mapper — transparent data model.
  *
  * Every record type the application produces is defined here so that the
  * data flow (upload -> normalize -> map -> score -> visualize -> export)
