@@ -1,0 +1,20 @@
+{
+  "appVersion": "1.0.0",
+  "generatedAt": "2024-01-01T00:00:00.000Z",
+  "columnMapping": {
+    "identifier": "feature_id", "label": "feature_name", "effectSize": "log2FoldChange",
+    "significance": "padj", "direction": null, "omicsLayer": "omics_type", "chromosome": null,
+    "start": null, "end": null, "nearestGene": null, "dmrId": null, "annotationColumns": []
+  },
+  "thresholds": { "significanceThreshold": 0.05, "effectSizeThreshold": 0, "smallerIsStronger": true, "filterBeforeMapping": false },
+  "species": { "mode": "ortholog_reference", "studySpecies": "Crassostrea gigas", "referenceSpecies": "Homo sapiens", "distantReference": false },
+  "dataType": "multiomics",
+  "pathwaySource": "all",
+  "selectedPathwayId": "WP408",
+  "visualization": {
+    "pathwayId": "WP408", "styleMode": "multiomics", "hideUnmapped": false, "showLegend": true,
+    "activeLayers": ["rna", "methylation", "protein", "metabolite", "generic"], "zoom": 1, "panX": 0, "panY": 0,
+    "selectedNodeId": null, "colorblindSafe": true
+  },
+  "tableNames": ["demo_multiomics"]
+}

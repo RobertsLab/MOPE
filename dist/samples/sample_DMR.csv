@@ -1,0 +1,16 @@
+DMR_id,chromosome,start,end,nearest_gene,delta_methylation,qvalue,methylation_direction
+DMR_001,scaffold_20,42672,43471,DNMT1,0.39,0.005,hypermethylated
+DMR_002,scaffold_19,593683,594266,TET2,0.119,0.286,hypermethylated
+DMR_003,scaffold_7,703258,703691,MECP2,0.023,0.565,hypermethylated
+DMR_004,scaffold_13,138235,138430,HDAC1,0.216,0.0048,hypermethylated
+DMR_005,scaffold_11,789387,789540,EZH2,0.172,0.222,hypermethylated
+DMR_006,scaffold_20,591341,591832,TP53,0.436,0.0003,hypermethylated
+DMR_007,scaffold_7,531458,531741,BCL2,0.496,0.0016,hypermethylated
+DMR_008,scaffold_3,257150,257568,SOD2,-0.235,0.0187,hypomethylated
+DMR_009,scaffold_18,738715,739030,HSPA1A,-0.13,0.145,hypomethylated
+DMR_010,scaffold_17,9203,9805,NFKB1,-0.197,0.591,hypomethylated
+DMR_011,scaffold_4,141814,142528,HMOX1,0.168,0.359,hypermethylated
+DMR_012,scaffold_18,163998,164585,CDK1,-0.236,0.0178,hypomethylated
+DMR_013,scaffold_11,214487,215211,VEGFA,-0.228,0.0121,hypomethylated
+DMR_014,scaffold_17,513262,513421,IL6,0.187,0.521,hypermethylated
+DMR_015,scaffold_2,97781,98045,MAPK1,-0.249,0.0182,hypomethylated

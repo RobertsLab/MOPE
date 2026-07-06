@@ -1,0 +1,12 @@
+source_id,reference_symbol,orthology_confidence,relationship
+CGI_10001,TP53,high,1:1
+CGI_10002,SOD2,high,1:1
+CGI_10003,CAT,medium,1:1
+CGI_10004,HSPA1A,high,1:1
+CGI_10005,NFKB1,medium,1:1
+CGI_10006,BCL2,low,1:many
+CGI_10006,BAX,low,1:many
+CGI_10007,DNMT1,high,1:1
+CGI_10008,HMOX1,medium,1:1
+CGI_10009,GPX1,high,many:1
+CGI_10010,GPX1,high,many:1
