@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">TidePath logo</title>
+  <desc id="desc">A tide wave flowing into connected omics pathway nodes beside the TidePath wordmark.</desc>
+  <defs>
+    <linearGradient id="water" x1="54" y1="28" x2="256" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55d6be"/>
+      <stop offset="0.48" stop-color="#269ec3"/>
+      <stop offset="1" stop-color="#215b75"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="180" y1="60" x2="244" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#e76f51"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#153342" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="260" rx="34" fill="#f7fbfc"/>
+  <g filter="url(#softShadow)">
+    <rect x="48" y="36" width="188" height="188" rx="42" fill="#12384a"/>
+    <path d="M74 146c35 19 66 16 93-9 32-30 56-39 92-21-9 43-47 75-94 75-37 0-70-18-91-45Z" fill="url(#water)"/>
+    <path d="M75 118c25-24 58-34 91-25 29 8 51 29 62 55-25-21-55-25-88-8-26 14-47 12-65-22Z" fill="#b8edf0"/>
+    <path d="M92 96c20-29 51-47 86-49-10 20-9 38 3 54-31-19-61-20-89-5Z" fill="#55d6be"/>
+    <g stroke="#d9fbff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M119 117 165 94 204 129 187 174 137 169 119 117Z"/>
+      <path d="M165 94 187 174"/>
+      <path d="M204 129 137 169"/>
+    </g>
+    <circle cx="119" cy="117" r="13" fill="#55d6be"/>
+    <circle cx="165" cy="94" r="12" fill="#8ecae6"/>
+    <circle cx="204" cy="129" r="14" fill="url(#warm)"/>
+    <circle cx="187" cy="174" r="12" fill="#f4a259"/>
+    <circle cx="137" cy="169" r="13" fill="#7cc9dc"/>
+  </g>
+
+  <g fill="#12384a">
+    <text x="274" y="124" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="70" font-weight="800">TidePath</text>
+    <text x="278" y="172" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#276177">Marine Omics Pathway Mapper</text>
+  </g>
+  <path d="M278 196c78-18 156-18 234 0 74 17 151 17 232 0" stroke="#55d6be" stroke-width="7" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,4 +1,8 @@
-# Marine Pathway Mapper
+<p align="center">
+  <img src="public/tidepath-logo.svg" alt="TidePath: Marine Omics Pathway Mapper logo" width="720">
+</p>
+
+# TidePath: Marine Omics Pathway Mapper
 
 A free, browser-based tool for mapping marine and non-model organism omics results
 onto biological pathways. It ingests differential expression (DEG), differential
