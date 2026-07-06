@@ -26,7 +26,7 @@ export default function DocsPage() {
 
   return (
     <div className="space-y-6">
-      <SectionTitle subtitle="How to use Marine Omics Pathway Mapper — with a focused workflow for non-model and marine organisms.">
+      <SectionTitle subtitle="How to use Marine Omics Pathway Explorer — with a focused workflow for non-model and marine organisms.">
         Documentation
       </SectionTitle>
 

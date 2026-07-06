@@ -11,7 +11,7 @@ export default function AboutPage() {
       <SectionTitle subtitle="Data sources, attribution, licensing, and scope.">About &amp; data-source attribution</SectionTitle>
 
       <div className="card p-6">
-        <h3 className="mb-2 text-lg font-semibold text-ocean-900">Marine Omics Pathway Mapper</h3>
+        <h3 className="mb-2 text-lg font-semibold text-ocean-900">Marine Omics Pathway Explorer</h3>
         <p className="text-sm text-slate-600">
           A free, browser-based tool for mapping marine and non-model organism omics results onto biological pathways.
           Everything runs client-side — your data never leaves your computer, and no API key is required for ordinary use.

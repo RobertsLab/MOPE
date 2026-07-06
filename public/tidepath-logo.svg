@@ -36,7 +36,7 @@
 
   <g fill="#12384a">
     <text x="274" y="124" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="70" font-weight="800">TidePath</text>
-    <text x="278" y="172" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#276177">Marine Omics Pathway Mapper</text>
+    <text x="278" y="172" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#276177">Marine Omics Pathway Explorer</text>
   </g>
   <path d="M278 196c78-18 156-18 234 0 74 17 151 17 232 0" stroke="#55d6be" stroke-width="7" stroke-linecap="round" fill="none"/>
 </svg>
